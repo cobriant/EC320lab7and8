@@ -23,11 +23,6 @@ gapminder %>%
 
 # 1. What are the 3 observations in the Americas with the lowest life expectancies?
 
-gapminder %>%
-  filter(continent == "Americas") %>%
-  arrange(lifeExp) %>%
-  slice_head(n = 3)
-
 # Hint: the output should look something like this:
 # # A tibble: 3 × 6
 # country continent  year lifeExp     pop gdpPercap
@@ -37,11 +32,6 @@ gapminder %>%
 # 3 Haiti   Americas   1957    40.7 3507701     1727.
 
 # 2. What are the 3 observations in Europe with the highest life expectancies?
-
-gapminder %>%
-  filter(continent == "Europe") %>%
-  arrange(desc(lifeExp)) %>%
-  slice_head(n = 3)
 
 # Hint: the output should look something like this:
 # # A tibble: 3 × 6
@@ -54,10 +44,6 @@ gapminder %>%
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 # 3. Which (one) country has the highest life expectancy in each continent?
-gapminder %>%
-  group_by(continent) %>%
-  arrange(desc(lifeExp)) %>%
-  slice(1)
 
 # Hint: the output should look something like this:
 # # A tibble: 5 × 6
@@ -71,9 +57,6 @@ gapminder %>%
 # 5 Australia Oceania    2007    81.2  20434176    34435.
 
 # 4. Show that the median gdpPercap around the world has risen steadily since 1952.
-gapminder %>%
-  group_by(year) %>%
-  summarize(gdpPercap_median = median(gdpPercap))
 
 # Hint: the output should look something like this:
 # # A tibble: 12 × 2
