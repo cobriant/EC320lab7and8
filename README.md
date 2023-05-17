@@ -13,7 +13,7 @@ You should turn in K10 and K11 before Friday, May 19th at 5pm.
 
 You should turn in K12 and K13 before Friday, May 26 at 5pm.
 
-(video)
+[Video](https://youtu.be/Nsm_2-mwGco)
 
 # Reading
 
