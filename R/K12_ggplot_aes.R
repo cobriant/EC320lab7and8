@@ -1,6 +1,6 @@
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 #                   Intro to the Tidyverse by Colleen O'Briant
-#                       Koan #11: ggplot aesthetic mappings
+#                       Koan #12: ggplot aesthetic mappings
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 # In order to progress:

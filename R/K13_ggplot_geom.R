@@ -1,6 +1,6 @@
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 #                   Intro to the Tidyverse by Colleen O'Briant
-#                             Koan #12: ggplot geoms
+#                             Koan #13: ggplot geoms
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 # In order to progress:
@@ -357,6 +357,20 @@ ggplot(
 #   labs(title = "Year: {frame_time}")
 
 #20
+
+# Here's a suggestion about how to get the gganimate dependencies installed:
+# Run these lines:
+# install.packages("gifsski")
+# install.packages("av")
+# install.packages("magick")
+# Then clear your workspace by going to the toolbar across the top of RStudio
+# and hitting Session > Clear Workspace.
+# Then quit and reopen RStudio.
+# Run these lines to re-attach the tidyverse and gapminder to your current session:
+# library(tidyverse)
+# library(gapminder)
+# Then try running
+# install.packages("gganimate")
 
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 

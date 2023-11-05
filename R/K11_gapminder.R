@@ -1,6 +1,6 @@
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 #                   Intro to the Tidyverse by Colleen O'Briant
-#                             Koan #10: gapminder
+#                             Koan #11: gapminder
 #:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 # In this koan, I'll introduce you to a new dataset called `gapminder`. This
